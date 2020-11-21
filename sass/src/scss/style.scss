@@ -1,5 +1,8 @@
-h1{
-    background-color: black;
-    color: green;
-    font-size: 20px;
+@import '_miksin.scss';
+$border:1px solid red;
+.container-fluid{
+    border: $border;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 2000px;
 }
